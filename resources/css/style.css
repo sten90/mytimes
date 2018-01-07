@@ -1,14 +1,10 @@
 header {
-  display: flex;
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
-  flex-grow: 2;
-}
+  }
 
-header p {
+header span {
   color: MediumAquamarine;
 }
-.menu {
-  align-content: flex-end;
+
+nav {
+  text-align: right;
 }
