@@ -1,10 +1,33 @@
 header {
-  }
+  display: flex;
+  justify-content: space-between;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+}
 
-header span {
+.logo_header {
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo_header p {
   color: MediumAquamarine;
 }
 
-nav {
-  text-align: right;
+.main_container {
+  display: flex;
+}
+
+.column1 {
+  display: flex;
+}
+
+.column2 {
+  display: flex;
+}
+
+.column3 {
+  display: flex;
 }
