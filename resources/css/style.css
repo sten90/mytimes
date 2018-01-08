@@ -16,18 +16,37 @@ header {
   color: MediumAquamarine;
 }
 
-.main_container {
+.main.container {
   display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  justify-content: space-between;
 }
 
-.column1 {
+.column.large {
   display: flex;
+  width: 630px;
+  border: 3px solid black;
 }
 
-.column2 {
+.column.medium {
   display: flex;
+  width: 300px;
 }
 
-.column3 {
+.column.small {
   display: flex;
+  width: 240px;
+}
+
+.thin.line {
+  border: 3px solid black;
+}
+
+.medium.line {
+  border: 3px solid black;
+}
+
+.large.line {
+  border: 3px solid black;
 }
