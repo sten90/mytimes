@@ -68,7 +68,15 @@ p#mainheadline {
   justify-content: center;
 }
 
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
 
+.story {
+  display: flex;
+  flex-direction: column;
+}
 /* SECOND COLUMN */
 
 .medium {
