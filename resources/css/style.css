@@ -16,25 +16,73 @@ header {
   color: MediumAquamarine;
 }
 
+
+/* CONTENT */
 .content {
   display: flex;
-  border: 2px solid black;
-  justify-content: space-between;    /* I will need to add the right margin, wait to know the measure*/
+  justify-content: space-between;    /* I will need to add the right and top margin, wait to know the measure*/
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  border: 2px solid black;
 }
 
+p {
+  font-size: 17px;
+  font-family: Georgia;
+  color: black;
+}
+
+/* FIRST COLUMN */
 .large {
   width: 630px;
 }
 
+.img-headline {
+  display: flex;
+  background-image: url("../images/img-story-main.png");
+  justify-content: center;
+}
+
+p.headline {
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+}
+
+p#mainheadline {
+  font-size: 40px;   /* need to be centered */
+}
+
+.img-headline2 {
+  display: flex;
+  background-image: url("../images/img-story-2.png");
+  justify-content: center;
+}
+
+.img-headline3 {
+  display: flex;
+  background-image: url("../images/img-story-3.png");
+  justify-content: center;
+}
+
+
+/* SECOND COLUMN */
+
 .medium {
   width: 300px;
 }
+
+.img-headline4 {
+  display: flex;
+  background-image: url("../images/img-story-1.png");
+  justify-content: center;
+}
+
+
+/* THIRD COLUMN */
 
 .small {
   width: 240px;
