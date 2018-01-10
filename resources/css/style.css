@@ -16,37 +16,26 @@ header {
   color: MediumAquamarine;
 }
 
-.main.container {
+.content {
+  display: flex;
+  border: 2px solid black;
+  justify-content: space-between;    /* I will need to add the right margin, wait to know the measure*/
+}
+
+.column {
   display: flex;
   flex-direction: column;
-  border: 3px solid black;
-  justify-content: space-between;
+  border: 2px solid black;
 }
 
-.column.large {
-  display: flex;
+.large {
   width: 630px;
-  border: 3px solid black;
 }
 
-.column.medium {
-  display: flex;
+.medium {
   width: 300px;
 }
 
-.column.small {
-  display: flex;
+.small {
   width: 240px;
-}
-
-.thin.line {
-  border: 3px solid black;
-}
-
-.medium.line {
-  border: 3px solid black;
-}
-
-.large.line {
-  border: 3px solid black;
 }
