@@ -172,6 +172,14 @@ img.cookie {
   color: dimgray;
 }
 
+.news-bites .bite:hover {
+  color: rgb(48,48,48);
+}
+
+nav a:hover {
+  color: blue;
+}
+
 .bite span {
   padding-left: 11px;
 }
@@ -184,7 +192,7 @@ footer {
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  height: 325px;
+  height: 120px;
   background-color: mediumaquamarine;
   margin: auto;
   font-family: "Verdana", sans-serif;
